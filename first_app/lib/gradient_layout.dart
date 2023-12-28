@@ -1,7 +1,8 @@
+import 'package:first_app/DiceRoller.dart';
 import 'package:flutter/material.dart';
 
 class GradientLayout extends StatelessWidget {
-  const GradientLayout({super.key});
+  GradientLayout({super.key});
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -11,14 +12,6 @@ class GradientLayout extends StatelessWidget {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight),
         ),
-        child: const Center(
-          child: Text(
-            "Hello World",
-            style: TextStyle(
-                color: Colors.white,
-                fontSize: 24.0,
-                fontWeight: FontWeight.bold),
-          ),
-        ));
+        child: DiceRoller());
   }
 }
