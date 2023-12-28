@@ -2,7 +2,7 @@ import 'package:first_app/DiceRoller.dart';
 import 'package:flutter/material.dart';
 
 class GradientLayout extends StatelessWidget {
-  GradientLayout({super.key});
+  const GradientLayout({super.key});
   @override
   Widget build(BuildContext context) {
     return Container(
