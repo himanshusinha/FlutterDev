@@ -12,6 +12,6 @@ class GradientLayout extends StatelessWidget {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight),
         ),
-        child: DiceRoller());
+        child: const DiceRoller());
   }
 }
